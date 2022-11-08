@@ -1,0 +1,68 @@
+// VARIABLES
+$color-std-baras: rgb(217, 217, 217);
+$color-icono: blue;
+
+// ESTILOS DEL MENU DE NAVEGACION - INDEX PPAL
+
+.header__ppal {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../img/banner_ppal.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  .header__ppal__navstile {
+    background-color: $color-std-baras;
+  }
+  .header__ppal__nav {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+  }
+  .header__ppal__nav__logo {
+    height: 60px;
+    width: 200px;
+  }
+}
+
+// ESTILOS DE FOOTER
+
+.footer__ppal {
+  background-color: $color-std-baras;
+
+  p {
+    font-size: 10px;
+    font-weight: 300;
+    margin: 0%;
+    padding: 5px 5px;
+  }
+  i {
+    font-size: 15px;
+    padding: 0px 5px;
+    color: $color-icono;
+  }
+}
+
+// ESTILOS DE ENCABEZADO - PG INTERNAS
+
+.header__cintillo {
+  P {
+    font-size: 10px;
+    font-weight: 300;
+  }
+}
+
+// ESTILOS DEL MENU DE NAVEGACION - PG INTERNAS
+
+.header__sec__nav {
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+
+  .header__sec__nav__logo {
+    height: 60px;
+    width: 200px;
+  }
+}

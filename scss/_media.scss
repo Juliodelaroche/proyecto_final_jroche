@@ -1,0 +1,108 @@
+// VARIABLES
+$color-std-baras: rgb(217, 217, 217);
+$color-icono: blue;
+
+// ========> MEDIA PARA PANTALLAN MIN 768PX <=========
+
+@media (min-width: 768px) {
+  // ESTILOS DEL MENU DE NAVEGACION - INDEX PPAL
+
+  .header__ppal__nav {
+    a {
+      font-size: 25px;
+    }
+    .header__ppal__nav__logo {
+      height: 90px;
+      width: 300px;
+    }
+  }
+  // ESTILOS DE FOOTER
+  .footer__ppal {
+    p {
+      font-size: 18px;
+    }
+    i {
+      font-size: 30px;
+    }
+  }
+  // ESTILOS DEL MENU DE NAVEGACION - PG INTERNAS
+
+  .header__sec__nav {
+    a {
+      font-size: 25px;
+    }
+    .header__sec__nav__logo {
+      height: 90px;
+      width: 300px;
+    }
+  }
+
+  // ESTILOS DE ENCABEZADO - PG INTERNAS
+
+  .header__cintillo {
+    p {
+      font-size: 15px;
+    }
+  }
+
+  // ======> INDEX PPAL <=======
+
+  // estilo de texto index ppal
+
+  .header__ppal__textos {
+    h1 {
+      font-size: 60px;
+      padding: 0px 0px 38px 0px;
+    }
+    p {
+      font-size: 35px;
+      padding: 0px 0px 38px 0px;
+    }
+  }
+}
+
+// ======> NOSOTROS <=======
+
+// ========> MEDIA PARA PANTALLAN MIN 992PX <=========
+
+@media (min-width: 992px) {
+  // ESTILOS DEL MENU DE NAVEGACION - INDEX PPAL
+  .header__ppal__navstile {
+    background-color: transparent !important;
+  }
+  .header__ppal__nav {
+    a {
+      font-size: 18px;
+    }
+    .header__ppal__nav__logo {
+      height: 90px;
+      width: 280px;
+    }
+  }
+  .header__sec__nav {
+    font-size: 18px;
+  }
+
+  // ESTILOS DEL MENU DE NAVEGACION - PG INTERNAS
+
+  .header__sec__nav {
+    a {
+      font-size: 18px;
+    }
+    .header__sec__nav__logo {
+      height: 90px;
+      width: 280px;
+    }
+  }
+
+  // ESTILOS DE FOOTER
+  .footer__ppal {
+    p {
+      font-size: 14px;
+    }
+    i {
+      font-size: 25px;
+    }
+  }
+}
+

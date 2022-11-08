@@ -1,0 +1,72 @@
+// cambiar variables bootstrap
+$font-family-sans-serif: "Roboto", sans-serif;
+
+// importar css de bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../scss/global";
+@import "../scss/media";
+
+// ======> INDEX PPAL <=======
+
+// estilo de texto index ppal
+
+.header__ppal__textos {
+  min-height: 100vh;
+  h1 {
+    font-size: 45px;
+    font-weight: 400;
+    padding: 0px 0px 40px 0px;
+  }
+  p {
+    font-size: 28px;
+    font-weight: 300;
+    padding: 0px 0px 40px 0px;
+  }
+}
+
+// ======> NOSOTROS <=======
+
+.card__text {
+  h4 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  h5 {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  p {
+    font-size: 15px;
+    font-weight: 300;
+  }
+}
+
+.mision__vision {
+  h4 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  p {
+    font-size: 15px;
+    font-weight: 300;
+  }
+}
+
+// ======> SERVICIOS <=======
+
+.servicios__iconos {
+  img {
+    width: 80px;
+    height: 80px;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  p {
+    font-size: 15px;
+    font-weight: 300;
+  }
+}
+// ======> CONTACTO <=======
+
